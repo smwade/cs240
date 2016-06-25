@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/seanwade/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/seanwade/cs240/SuperAsteroids/app/build/intermediates/pre-dexed/release/support-v4-19.1.0_1be30bc35c1344a4dedbe2ec1396b1eaa970c93a.jar" />
+    </item>
+    <item
+        jar="/Users/seanwade/cs240/SuperAsteroids/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/seanwade/cs240/SuperAsteroids/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-19.1.0_a960b2acb07f6d3f73a2adc832368736d8b47dcb.jar" />
+    </item>
+    <item
+        jar="/Users/seanwade/cs240/SuperAsteroids/app/libs/json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="/Users/seanwade/cs240/SuperAsteroids/app/build/intermediates/pre-dexed/release/json-simple-1.1.1_d8332212cfdfae592d560000c8a7d7876072a30c.jar" />
+    </item>
+
+</items>

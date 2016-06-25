@@ -1,0 +1,220 @@
+{
+  "asteroidsGame": {
+    "objects": [
+      "images/planet1.png",
+      "images/planet2.png",
+      "images/planet3.png",
+      "images/planet4.png",
+      "images/planet5.png",
+      "images/planet6.png",
+      "images/station.png",
+      "images/nebula1.png",
+      "images/nebula2.png",
+      "images/nebula3.png",
+      "images/nebula4.png",
+      "images/nebula5.png"
+    ],
+
+    "asteroids": [
+      {
+        "name":"regular",
+        "image":"images/asteroids/asteroid.png",
+        "imageWidth":169,
+        "imageHeight":153,
+        "type":"regular"
+      },
+      {
+        "name":"growing",
+        "image":"images/asteroids/blueasteroid.png",
+        "imageWidth":161,
+        "imageHeight":178,
+        "type":"growing"
+      },
+      {
+        "name":"octeroid",
+        "image":"images/asteroids/asteroid.png",
+        "imageWidth":169,
+        "imageHeight":153,
+        "type":"octeroid"
+      }
+    ],
+
+    "levels": [
+      {
+        "number":1,
+        "title":"Level 1",
+        "hint":"Destroy 1 Asteroid",
+        "width":3000,
+        "height":3000,
+        "music":"sounds/SpyHunter.ogg",
+        "levelObjects": [
+          {
+            "position":"1000,1000",
+            "objectId":1,
+            "scale":1.5
+          }
+
+        ],
+        "levelAsteroids": [
+          {
+            "number":4,
+            "asteroidId":1
+          },
+          {
+            "number":4,
+            "asteroidId":2
+          }
+        ]
+      },
+      {
+        "number":2,
+        "title":"Level 2",
+        "hint":"Destroy 5 Asteroids",
+        "width":3000,
+        "height":3000,
+        "music":"sounds/SpyHunter.ogg",
+        "levelObjects": [],
+        "levelAsteroids": [
+          {
+            "number":5,
+            "asteroidId":1
+          }
+        ]
+      },
+      {
+        "number":3,
+        "title":"Level 3",
+        "hint":"Destroy 10 Asteroids",
+        "width":4056,
+        "height":4056,
+        "music":"sounds/SpyHunter.ogg",
+        "levelObjects": [],
+        "levelAsteroids": [
+          {
+            "number":10,
+            "asteroidId":1
+          }
+        ]
+      },
+      {
+        "number":4,
+        "title":"Level 4",
+        "hint":"Destroy 20 Asteroids",
+        "width":4056,
+        "height":4056,
+        "music":"sounds/SpyHunter.ogg",
+        "levelObjects": [],
+        "levelAsteroids": [
+          {
+            "number":20,
+            "asteroidId":1
+          }
+        ]
+      },
+      {
+        "number":5,
+        "title":"Level 5",
+        "hint":"Destroy 20 Asteroids",
+        "width":3000,
+        "height":3000,
+        "music":"sounds/SpyHunter.ogg",
+        "levelObjects": [],
+        "levelAsteroids": [
+          {
+            "number":20,
+            "asteroidId":1
+          }
+        ]
+      }
+    ],
+
+    "mainBodies": [
+      {
+        "cannonAttach":"142,167",
+        "engineAttach":"89,591",
+        "extraAttach":"32,167",
+        "image":"images/parts/falcon_mainBody.png",
+        "imageWidth":179,
+        "imageHeight":591
+      },
+      {
+        "cannonAttach":"194,450",
+        "engineAttach":"100,744",
+        "extraAttach":"9,450",
+        "image":"images/parts/rwing_mainBody.png",
+        "imageWidth":200,
+        "imageHeight":744
+      }
+    ],
+    "cannons": [
+      {
+        "attachPoint":"0,352",
+        "emitPoint":"43,0",
+        "image":"images/parts/falcon_cannon.png",
+        "imageWidth":363,
+        "imageHeight":952,
+        "attackImage":"images/parts/laser6.png",
+        "attackImageWidth":80,
+        "attackImageHeight":59,
+        "attackSound":"sounds/laser.mp3",
+        "damage":4
+      },
+      {
+        "attachPoint":"0,218",
+        "emitPoint":"72,9",
+        "image":"images/parts/rwing_cannon.png",
+        "imageWidth":464,
+        "imageHeight":674,
+        "attackImage":"images/parts/laser8.png",
+        "attackImageWidth":80,
+        "attackImageHeight":59,
+        "attackSound":"sounds/laser.mp3",
+        "damage":4
+      }
+    ],
+    "extraParts": [
+      {
+        "attachPoint":"326,353",
+        "image":"images/parts/falcon_extraPart.png",
+        "imageWidth":330,
+        "imageHeight":953
+      },
+      {
+        "attachPoint":"468,215",
+        "image":"images/parts/rwing_extraPart.png",
+        "imageWidth":470,
+        "imageHeight":676
+      }
+    ],
+    "engines": [
+      {
+        "baseSpeed":950,
+        "baseTurnRate":1000,
+        "attachPoint":"278,29",
+        "image":"images/parts/falcon_engine.png",
+        "imageWidth":557,
+        "imageHeight":338
+      },
+      {
+        "baseSpeed":500,
+        "baseTurnRate":360,
+        "attachPoint":"65,0",
+        "image":"images/parts/rwing_engine.png",
+        "imageWidth":129,
+        "imageHeight":80
+      }
+    ],
+    "powerCores": [
+      {
+        "cannonBoost":10,
+        "engineBoost":10,
+        "image":"images/Ellipse.png"
+      },
+      {
+        "cannonBoost":10,
+        "engineBoost":10,
+        "image":"images/Triangle.png"
+      }
+    ]
+  }
+}
